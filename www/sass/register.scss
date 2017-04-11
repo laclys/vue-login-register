@@ -1,0 +1,160 @@
+@import 'all';
+div.container_box {
+    height: 765px;
+    width: 100%;
+    background-color: #f0f0f0;
+    .inner {
+        width: 990px;
+        height: 765px;
+        margin: 0 auto;
+        // background: yellow;
+        position: relative;
+    }
+    .header {
+        height: 57px;
+        padding-top: 52px;
+        padding-bottom: 34px;
+        a {
+            @extend .fl;
+            img {
+                width: 196px;
+            }
+        }
+        p {
+            @extend .fl;
+            color: #666666;
+            font-size: 19px;
+            height: 19px;
+            line-height: 19px;
+            margin-top: 29px;
+            margin-left: 30px;
+        }
+    }
+    p.regi_enter {
+        font-size: 11px;
+        line-height: 11px;
+        height: 11px;
+        text-align: right;
+        color: #666666;
+        a {
+            color: #6c9d03;
+        }
+    }
+    div.login_box {
+        height: 400px;
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid #cccccc;
+        margin-top: 10px;
+        background-color: white;
+        margin-bottom: 46px;
+        position: relative;
+        div.left_box {
+            @extend .fl;
+            // background: deepskyblue;
+            width: 410px;
+            // height: 100%;
+            padding-top: 5px;
+            div.login_list {
+                height: 31px;
+                margin-top: 32px;
+                // margin-bottom: 25px;
+                @extend .fr;
+                .star-icon {
+                    line-height: 31px;
+                    font-size: 12px;
+                    color: #ff6600;
+                }
+                .title {
+                    line-height: 31px;
+                    font-size: 12px;
+                }
+                input {
+                    height: 29px;
+                    width: 238px;
+                    border: 1px solid #cccccc;
+                    outline: none;
+                    text-indent: 11px;
+                }
+                input#num_check {
+                    width: 106px;
+                }
+                input:hover {
+                    border-color: #6c9d03;
+                }
+                img {
+                    width: 104px;
+                    height: 31px;
+                    @extend .fr;
+                    margin-left: 10px;
+                    margin-right: 17px;
+                }
+            }
+            div.button {
+                @extend .fr;
+                width: 240px;
+                height: 36px;
+                color: white;
+                border-radius: 2px;
+                background-color: #ff6600;
+                text-align: center;
+                line-height: 36px;
+                font-size: 15px;
+                margin-top: 32px;
+                margin-bottom: 10px;
+                cursor: pointer;
+            }
+            .protocol {
+                font-size: 11px;
+                @extend .fr;
+                margin-right: 17px;
+                a {
+                    color: #6c9d03;
+                }
+                a:hover {
+                    color: orangered;
+                }
+            }
+        }
+        div.line {
+            position: absolute;
+            left: 490px;
+            top: 50px;
+            width: 1px;
+            height: 298px;
+            background-color: #cccccc;
+        }
+        div.right_img {
+            width: 470px;
+            height: 298px;
+            background: url(../img/loging.jpg) no-repeat;
+            @extend .fr;
+            margin-top: 46px;
+            margin-right: 10px;
+        }
+    }
+    div.footer {
+        text-align: center;
+        ul {
+            margin: 0 320px;
+            li {
+                @extend .fl;
+                font-size: 11px;
+                a {
+                    color: #a4a4b9;
+                }
+                a:hover {
+                    color: orangered;
+                }
+            }
+        }
+        p {
+            margin-top: 8px;
+            margin-bottom: 17px;
+            font-size: 11px;
+            line-height: 11px;
+            height: 11px;
+            color: #a4a4b9;
+        }
+    }
+}

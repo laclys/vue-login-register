@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>登录注册</title>
+    <script src="../js/vue.js"></script>
+    <script src="../js/vue-resource.js"></script>
+    <script src="../js/regi.js"></script>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+
+<body>
+    <div class="container_box">
+        <div class="inner">
+            <div class="header clearfix">
+                <a href="javascript:;">
+                    <img src="../img/kede_logo.gif" alt="logo">
+                </a>
+                <p>欢迎注册</p>
+            </div>
+            <p class="regi_enter">我已经注册，<a href="../html/login.html">立刻登陆 ></a></p>
+            <!--注册表单BOX-->
+            <div class="login_box clearfix">
+                <!--注册表单-->
+                <div class="left_box">
+                    <div class="login_list">
+                        <span class="star-icon">*</span>
+                        <span class="title">账号名：</span>
+                        <input type="text" name="username" id="regi_username" placeholder="用户名/邮箱/手机" v-model="username">
+                        <!--<i>请输入用户名</i>-->
+                    </div>
+                    <div class="login_list">
+                        <span class="star-icon">*</span>
+                        <span class="title">设置密码：</span>
+                        <input type="password" name="check" id="regi_psd_check" v-model="psd1">
+                    </div>
+                    <div class="login_list">
+                        <span class="star-icon">*</span>
+                        <span class="title">确认密码：</span>
+                        <input type="password" name="psd" id="regi_psd" v-model="psd2">
+                    </div>
+                    <div class="login_list">
+                        <span class="star-icon">*</span>
+                        <span class="title">验证码：</span>
+                        <input type="text" name="num_check" id="num_check" v-model="num_check">
+                        <img src="../img/validates.jpg" alt="validates">
+                    </div>
+                    <div class="button" @click="register()">提交注册</div>
+                    <span class="protocol">我已阅读并同意<a href="javascript:;">《可得用户注册协议》</a></span>
+                </div>
+                <!--分界线-->
+                <div class="line"></div>
+                <!--右边大图-->
+                <div class="right_img"></div>
+            </div>
+            <div class="footer">
+                <ul class="clearfix">
+                    <li>
+                        <a href="javascript:;">首页 |</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">联系我们 |</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">友情链接 |</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">眼镜知识 |</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">眼镜百科 |</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">网站地图 |</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">隐私安全 |</a>
+                    </li>
+                </ul>
+                <p>Copyright? 2006-2016 可得眼镜 KEDE.com 版权所有 沪ICP备14001373号 全国服务热线：4006-20-20-20</p>
+                <img src="../img/FTC-01-bg3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

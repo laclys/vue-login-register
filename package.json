@@ -1,0 +1,23 @@
+{
+  "name": "web_project0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "webpack": "webpack --config webpack.config.js --progress --display-modules --colors --display-reasons"
+  },
+  "author": "zyy",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "express": "^4.15.2",
+    "express-static": "^1.1.0",
+    "html-webpack-plugin": "^2.28.0",
+    "mysql": "^2.13.0",
+    "style-loader": "^0.16.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.3.2"
+  }
+}

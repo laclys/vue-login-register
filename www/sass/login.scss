@@ -1,0 +1,218 @@
+            @import 'all';
+            div.container_box {
+                height: 765px;
+                width: 100%;
+                background-color: #f0f0f0;
+                .inner {
+                    width: 990px;
+                    height: 765px;
+                    margin: 0 auto;
+                    // background: yellow;
+                    position: relative;
+                }
+                .header {
+                    height: 57px;
+                    padding-top: 52px;
+                    padding-bottom: 34px;
+                    a {
+                        @extend .fl;
+                        img {
+                            width: 196px;
+                        }
+                    }
+                    p {
+                        @extend .fl;
+                        color: #666666;
+                        font-size: 19px;
+                        height: 19px;
+                        line-height: 19px;
+                        margin-top: 29px;
+                        margin-left: 30px;
+                    }
+                }
+                p.regi_enter {
+                    font-size: 11px;
+                    line-height: 11px;
+                    height: 11px;
+                    text-align: right;
+                    color: #666666;
+                    a {
+                        color: #6c9d03;
+                    }
+                }
+                div.login_box {
+                    height: 400px;
+                    width: 100%;
+                    box-sizing: border-box;
+                    border: 1px solid #cccccc;
+                    margin-top: 10px;
+                    background-color: white;
+                    margin-bottom: 46px;
+                    position: relative;
+                    .left_img {
+                        width: 470px;
+                        margin-left: 9px;
+                        margin-top: 50px;
+                        @extend .fl;
+                    }
+                    .line {
+                        width: 1px;
+                        height: 299px;
+                        background: #cccccc;
+                        @extend .fl;
+                        margin-left: 10px;
+                        margin-top: 50px;
+                    }
+                    .right_box {
+                        @extend .fl;
+                        margin-left: 84px;
+                        margin-top: 50px;
+                        width: 412px;
+                        height: 299px;
+                        // background: yellow;
+                        .username {
+                            width: 328px;
+                            height: 28px;
+                            border: 1px solid #bfbfbf;
+                            position: relative;
+                            margin-bottom: 31px;
+                            i {
+                                width: 24px;
+                                height: 24px;
+                                background: url(../img/allbgs.png) no-repeat 0 -24px;
+                                left: 8px;
+                                top: 3px;
+                                display: block;
+                                position: absolute;
+                                @extend .fl;
+                            }
+                            input {
+                                width: 287px;
+                                height: 26px;
+                                line-height: 26px;
+                                outline: none;
+                                border: 0;
+                                @extend .fl;
+                                margin-left: 40px;
+                            }
+                        }
+                        .psd {
+                            width: 328px;
+                            height: 28px;
+                            border: 1px solid #bfbfbf;
+                            position: relative;
+                            margin-bottom: 31px;
+                            i {
+                                width: 24px;
+                                height: 24px;
+                                background: url(../img/allbgs.png) no-repeat 0 0;
+                                left: 8px;
+                                top: 3px;
+                                display: block;
+                                position: absolute;
+                                @extend .fl;
+                            }
+                            input {
+                                width: 287px;
+                                height: 26px;
+                                line-height: 26px;
+                                outline: none;
+                                border: 0;
+                                @extend .fl;
+                                margin-left: 40px;
+                            }
+                        }
+                        div.label {
+                            width: 400px;
+                            height: 13px;
+                            font-size: 11px;
+                            line-height: 13px;
+                            input {
+                                position: relative;
+                                top: 2px;
+                            }
+                            span {
+                                padding-left: 166px;
+                                color: #6c9d03;
+                                cursor: pointer;
+                            }
+                        }
+                        .button_login {
+                            width: 331px;
+                            height: 32px;
+                            line-height: 32px;
+                            color: white;
+                            font-size: 13px;
+                            background-color: #ff6600;
+                            margin-top: 7px;
+                            margin-bottom: 9px;
+                            border-radius: 3px;
+                            text-align: center;
+                        }
+                        .useqq {
+                            font-size: 11px;
+                            height: 11px;
+                            line-height: 11px;
+                            color: #999999;
+                            margin-bottom: 10px;
+                        }
+                        .qq,
+                        .sina,
+                        .zhifubao {
+                            width: 32px;
+                            height: 32px;
+                            display: block;
+                            float: left;
+                            background: #ccc url(../img/allbgs.png) no-repeat;
+                            margin: 0px 20px 0 0;
+                            cursor: pointer;
+                            border-radius: 18px;
+                        }
+                        .qq {
+                            background-position: 0 -74px;
+                        }
+                        .qq:hover {
+                            background-position: 0 -107px;
+                            background-color: #f60;
+                        }
+                        .sina {
+                            background-position: -40px -74px;
+                        }
+                        .sina:hover {
+                            background-position: -40px -74px;
+                            background-color: #f60;
+                        }
+                        .zhifubao {
+                            background-position: -80px -74px;
+                        }
+                        .zhifubao:hover {
+                            background-position: -80px -74px;
+                            background-color: #f60;
+                        }
+                    }
+                }
+                div.footer {
+                    text-align: center;
+                    ul {
+                        margin: 0 320px;
+                        li {
+                            @extend .fl;
+                            font-size: 11px;
+                            a {
+                                color: #a4a4b9;
+                            }
+                            a:hover {
+                                color: orangered;
+                            }
+                        }
+                    }
+                    p {
+                        margin-top: 8px;
+                        margin-bottom: 17px;
+                        font-size: 11px;
+                        line-height: 11px;
+                        height: 11px;
+                        color: #a4a4b9;
+                    }
+                }
+            }

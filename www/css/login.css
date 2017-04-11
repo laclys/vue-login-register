@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.clearfix:after {
+  clear: both;
+  content: '';
+  display: block; }
+
+.clearfix {
+  zoom: 1; }
+
+.fl, div.container_box .header a, div.container_box .header p, div.container_box div.login_box .left_img, div.container_box div.login_box .line, div.container_box div.login_box .right_box, div.container_box div.login_box .right_box .username i, div.container_box div.login_box .right_box .username input, div.container_box div.login_box .right_box .psd i, div.container_box div.login_box .right_box .psd input, div.container_box div.footer ul li {
+  float: left; }
+
+.fr {
+  float: right; }
+
+ul, ol, li {
+  list-style: none; }
+
+i, a {
+  color: black;
+  text-decoration: none;
+  font-style: normal; }
+
+div.container_box {
+  height: 765px;
+  width: 100%;
+  background-color: #f0f0f0; }
+  div.container_box .inner {
+    width: 990px;
+    height: 765px;
+    margin: 0 auto;
+    position: relative; }
+  div.container_box .header {
+    height: 57px;
+    padding-top: 52px;
+    padding-bottom: 34px; }
+    div.container_box .header a img {
+      width: 196px; }
+    div.container_box .header p {
+      color: #666666;
+      font-size: 19px;
+      height: 19px;
+      line-height: 19px;
+      margin-top: 29px;
+      margin-left: 30px; }
+  div.container_box p.regi_enter {
+    font-size: 11px;
+    line-height: 11px;
+    height: 11px;
+    text-align: right;
+    color: #666666; }
+    div.container_box p.regi_enter a {
+      color: #6c9d03; }
+  div.container_box div.login_box {
+    height: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    background-color: white;
+    margin-bottom: 46px;
+    position: relative; }
+    div.container_box div.login_box .left_img {
+      width: 470px;
+      margin-left: 9px;
+      margin-top: 50px; }
+    div.container_box div.login_box .line {
+      width: 1px;
+      height: 299px;
+      background: #cccccc;
+      margin-left: 10px;
+      margin-top: 50px; }
+    div.container_box div.login_box .right_box {
+      margin-left: 84px;
+      margin-top: 50px;
+      width: 412px;
+      height: 299px; }
+      div.container_box div.login_box .right_box .username {
+        width: 328px;
+        height: 28px;
+        border: 1px solid #bfbfbf;
+        position: relative;
+        margin-bottom: 31px; }
+        div.container_box div.login_box .right_box .username i {
+          width: 24px;
+          height: 24px;
+          background: url(../img/allbgs.png) no-repeat 0 -24px;
+          left: 8px;
+          top: 3px;
+          display: block;
+          position: absolute; }
+        div.container_box div.login_box .right_box .username input {
+          width: 287px;
+          height: 26px;
+          line-height: 26px;
+          outline: none;
+          border: 0;
+          margin-left: 40px; }
+      div.container_box div.login_box .right_box .psd {
+        width: 328px;
+        height: 28px;
+        border: 1px solid #bfbfbf;
+        position: relative;
+        margin-bottom: 31px; }
+        div.container_box div.login_box .right_box .psd i {
+          width: 24px;
+          height: 24px;
+          background: url(../img/allbgs.png) no-repeat 0 0;
+          left: 8px;
+          top: 3px;
+          display: block;
+          position: absolute; }
+        div.container_box div.login_box .right_box .psd input {
+          width: 287px;
+          height: 26px;
+          line-height: 26px;
+          outline: none;
+          border: 0;
+          margin-left: 40px; }
+      div.container_box div.login_box .right_box div.label {
+        width: 400px;
+        height: 13px;
+        font-size: 11px;
+        line-height: 13px; }
+        div.container_box div.login_box .right_box div.label input {
+          position: relative;
+          top: 2px; }
+        div.container_box div.login_box .right_box div.label span {
+          padding-left: 166px;
+          color: #6c9d03;
+          cursor: pointer; }
+      div.container_box div.login_box .right_box .button_login {
+        width: 331px;
+        height: 32px;
+        line-height: 32px;
+        color: white;
+        font-size: 13px;
+        background-color: #ff6600;
+        margin-top: 7px;
+        margin-bottom: 9px;
+        border-radius: 3px;
+        text-align: center; }
+      div.container_box div.login_box .right_box .useqq {
+        font-size: 11px;
+        height: 11px;
+        line-height: 11px;
+        color: #999999;
+        margin-bottom: 10px; }
+      div.container_box div.login_box .right_box .qq,
+      div.container_box div.login_box .right_box .sina,
+      div.container_box div.login_box .right_box .zhifubao {
+        width: 32px;
+        height: 32px;
+        display: block;
+        float: left;
+        background: #ccc url(../img/allbgs.png) no-repeat;
+        margin: 0px 20px 0 0;
+        cursor: pointer;
+        border-radius: 18px; }
+      div.container_box div.login_box .right_box .qq {
+        background-position: 0 -74px; }
+      div.container_box div.login_box .right_box .qq:hover {
+        background-position: 0 -107px;
+        background-color: #f60; }
+      div.container_box div.login_box .right_box .sina {
+        background-position: -40px -74px; }
+      div.container_box div.login_box .right_box .sina:hover {
+        background-position: -40px -74px;
+        background-color: #f60; }
+      div.container_box div.login_box .right_box .zhifubao {
+        background-position: -80px -74px; }
+      div.container_box div.login_box .right_box .zhifubao:hover {
+        background-position: -80px -74px;
+        background-color: #f60; }
+  div.container_box div.footer {
+    text-align: center; }
+    div.container_box div.footer ul {
+      margin: 0 320px; }
+      div.container_box div.footer ul li {
+        font-size: 11px; }
+        div.container_box div.footer ul li a {
+          color: #a4a4b9; }
+        div.container_box div.footer ul li a:hover {
+          color: orangered; }
+    div.container_box div.footer p {
+      margin-top: 8px;
+      margin-bottom: 17px;
+      font-size: 11px;
+      line-height: 11px;
+      height: 11px;
+      color: #a4a4b9; }
+
+/*# sourceMappingURL=login.css.map */

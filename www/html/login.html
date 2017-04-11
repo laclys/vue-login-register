@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>登录注册</title>
+    <script src="../js/vue.js"></script>
+    <script src="../js/vue-resource.js"></script>
+    <script src="../js/login.js"></script>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div class="container_box">
+        <div class="inner">
+            <div class="header clearfix">
+                <a href="javascript:;">
+                    <img src="../img/kede_logo.gif" alt="logo">
+                </a>
+                <p>欢迎登陆</p>
+            </div>
+            <p class="regi_enter">我是新用户？<a href="../html/register.html">免费注册 ></a></p>
+            <!--注册表单BOX-->
+            <div class="login_box clearfix">
+                <img src="../img/loging.jpg" alt="" class="left_img">
+                <div class="line"></div>
+                <div class="right_box">
+                    <div class="username clearfix">
+                        <i></i>
+                        <input type="text" name="" placeholder="用户名/邮箱/已验证手机" v-model='username'>
+                    </div>
+                    <div class="psd clearfix">
+                        <i></i>
+                        <input type="password" name="" v-model='password'>
+                    </div>
+                    <div class="label">
+                        <input type="checkbox"><label>记住账户</label>
+                        <input type="checkbox"><label>自动登录</label>
+                        <span>忘记密码</span>
+                    </div>
+                    <div class="button_login" @click='goIndex'>登陆</div>
+                    <p class="useqq">使用合作账户</p>
+                    <a href="javascript:;" class="qq"></a>
+                    <a href="javascript:;" class="sina"></a>
+                    <a href="javascript:;" class="zhifubao"></a>
+                </div>
+            </div>
+            <div class="footer">
+                <ul class="clearfix">
+                    <li>
+                        <a href="javascript:;">首页 |</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">联系我们 |</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">友情链接 |</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">眼镜知识 |</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">眼镜百科 |</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">网站地图 |</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">隐私安全 |</a>
+                    </li>
+                </ul>
+                <p>Copyright? 2006-2016 可得眼镜 KEDE.com 版权所有 沪ICP备14001373号 全国服务热线：4006-20-20-20</p>
+                <img src="../img/FTC-01-bg3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
